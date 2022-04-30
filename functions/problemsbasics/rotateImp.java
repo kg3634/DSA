@@ -6,7 +6,7 @@ Also k can have an absolute value larger than number of digits in n.
 4. Note - Assume that the number of rotations will not cause leading 0's in the result. e.g. such an input will not be given
    n = 12340056,k = 3,r = 05612340 */
 
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 import java.util.Scanner;
 

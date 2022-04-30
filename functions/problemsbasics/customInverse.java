@@ -12,7 +12,7 @@ in place 1, 5 is in place 2,2 is in place 3, 6 is in place 4, 1 is in place 5 an
 5. Print it's inverse.
  */
 
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 import java.util.Scanner;
 

@@ -8,7 +8,7 @@ Sample Input: 5 13 2 3 4 5
 Sample Output: prime prime prime not prime prime*/
 
 
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 import java.util.Scanner;
 

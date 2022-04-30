@@ -8,25 +8,33 @@ import java.util.Scanner;
 public class anybaseaddition {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+        //anybaseaddlogic1.png,anybaseaddlogic2.png
         int b = scn.nextInt();
         int n1 = scn.nextInt();
         int n2 = scn.nextInt();
-        int addition = getaddition(b,n1,n2);
+        int addition = getAddition(b,n1,n2);
         System.out.println(addition);
        
     }
 
-    public static int getaddition(int b,int n1, int n2){
-        while(n1>0 && n2>0){
-            int rem1 = n1%b;
-            int rem2 = n2%b;
-            if (rem1+rem2 < b){
-    
-            }
+    public static int getAddition(int b,int n1, int n2){
+        int carry = 0;
+        int value = 0;
+        int rv =0;
+        int p = 1;
+        while(n1>0 || n2>0 || carry >0){
+            int rem1 = n1%10;
+            n1=n1/10;
+            int rem2 = n2%10;
+            n2=n2/10;
+            int sum = rem1+rem2+carry;
+            carry = sum/b;
+            value = sum%b;
+            rv+=value*p;
+            p=p*10;
         }
 
-
-        return addition;
+        return rv;
     }
     
 }

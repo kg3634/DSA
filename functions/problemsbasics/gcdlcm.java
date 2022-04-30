@@ -4,7 +4,7 @@
 4. Print their GCD and LCM.*/
 // GCD.png
 // GCD2.png
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 import java.util.Scanner;
 

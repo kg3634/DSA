@@ -1,4 +1,4 @@
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 public class increament {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ every 2nd bulb is toggled, in the 3rd fluctuation every 3rd bulb is toggled and 
 find which bulbs will be switched on after n fluctuations.
 2. Take as input a number n, representing the number of bulbs.
 3. Print all the bulbs that will be on after the nth fluctuation in voltage. */
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 import java.util.Scanner;
 

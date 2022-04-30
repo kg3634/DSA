@@ -6,7 +6,7 @@ Input Format: low  high
 Output Format: n1 n2
 .. all primes between low and high (both included)
 Constraints: 2 <= low < high < 10 ^ 6 */
-package DSA.problemsbasics;
+package DSA.functions.problemsbasics;
 
 import java.util.Scanner;
 
