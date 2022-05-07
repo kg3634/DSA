@@ -1,0 +1,30 @@
+ Duplicate Brackets
+ Balanced Brackets
+ Next Greater element to the Right
+ Stock Span
+ Largest Area Histogram
+ Sliding Window Maximum
+ Infix Evaluation
+ Infix Conversion
+ Postfix Evaluation & Conversions
+ Prefix Evaluation and Conversions
+ Celebrity Problem
+ Merge Overlapping Interval
+ Smallest Number Following Pattern
+ Oops - Classes And Objects
+ Oops - Swap Game 1
+ Oops - Swap Game 2
+ Oops - Swap Game 3
+ Oops - Constructors And This
+ Normal Stack
+ Dynamic Stack
+ Minimum Stack -1
+ Minimum Stack - Constant Space
+ Queues - Introduction And Usage
+ Normal Queue
+ Dynamic Queue
+ Queue to stack Adapter-Push efficient
+ Queue to Stack Adapter - Pop Efficient
+ Stack to Queue Adapter- Add efficient
+ Stack To Queue Adapter- Remove Efficient
+ Two Stacks In An Array

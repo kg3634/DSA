@@ -96,7 +96,7 @@ public class addat {
             return temp.data;
           }
         }
-    
+        
         public void addFirst(int val) {
           Node temp = new Node();
           temp.data = val;

@@ -1,0 +1,13 @@
+ Is A Number Prime
+ Primes Till N
+ Print All Primes Till N Easy
+ Print Fibonacci Numbers Till N
+ Count Digits In A Number
+ Digits Of A Number
+ Reverse A Number
+ Inverse Of A Number
+ Rotate A Number
+ Gcd & Lcm
+ Prime Factorization Of A Number
+ Pythagorean Triplet
+ The Curious Case Of Benjamin Bulbs
