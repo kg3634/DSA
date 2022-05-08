@@ -5,7 +5,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class dec2any {
+public class decimalToAnyBase {
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class dec2any {
         // jis base mn jana hota h usse divide krte h and multiply jis base ko convirt kar re h usse
         // example (57)b10 = (111001)b2 is calculate as 57%2 and 57/2..till no >0
         // new base num = 1strem*10^0 + 2ndrem*10^1 + ...
-        // why of logic dec2anywhy.png
+        // why of logic decimalToAnyBaseWhy.png
         int bnum =0;
         int p = 1;
         while(n>0){

@@ -5,10 +5,10 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class anybaseaddition {
+public class anyBaseAddition {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        //anybaseaddlogic1.png,anybaseaddlogic2.png
+        //anyBaseAddLogic1.png,anyBaseAddLogic2.png
         int b = scn.nextInt();
         int n1 = scn.nextInt();
         int n2 = scn.nextInt();

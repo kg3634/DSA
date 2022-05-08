@@ -5,7 +5,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class any2dec {
+public class anyBaseToDecimal {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -24,12 +24,7 @@ public class any2dec {
             p=p*b;// multiply by jsko convirt karna h
 
         }
-
         return bnum;
-
-
      }
-
-
 }
     

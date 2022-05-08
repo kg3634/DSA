@@ -6,7 +6,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class anybasesubstraction {
+public class anyBaseSubstraction {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in); 
         int b = scn.nextInt();
@@ -16,7 +16,7 @@ public class anybasesubstraction {
         System.out.println(substraction);
        
     }
-    //anybasesubtractLogic1.png,anybasesubstractlogic2.png
+    //anyBaseSubtractLogic1.png,anyBaseSubstractLogic2.png
     public static int getSubstration(int b,int n1,int n2){
         int rv = 0;
         int carry = 0;
