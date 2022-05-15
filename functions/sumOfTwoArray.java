@@ -9,7 +9,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class sumofarray {
+public class sumOfTwoArray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         // Ist array input
@@ -28,7 +28,7 @@ public class sumofarray {
 
         // create new arr with max of(n1,n2) length
         int [] sum = new int[n1 > n2?n1:n2];//tertiary operator - check once
-        // logic sumofarraylogic.png
+        // logic sumOfArrayLogic.png
         int c =0;
         int i = a1.length -1;
         int j = a2.length -1;
@@ -60,9 +60,5 @@ public class sumofarray {
             System.out.println(val);
 
         }
-
-
-        
     }
-    
 }

@@ -5,7 +5,7 @@ e.g.' ((a + b) + (c + d)) -> false (a + b) + ((c + d)) -> true
 Constraints: 0 <= str.length <= 100 */
 import java.util.Scanner;
 import java.util.Stack;
-public class duplicatebrackets {
+public class duplicateBrackets {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String expr = scn.nextLine();

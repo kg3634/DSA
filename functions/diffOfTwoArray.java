@@ -10,7 +10,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class diffofarray {
+public class diffOfTwoArray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n1 = scn.nextInt();
@@ -32,14 +32,14 @@ public class diffofarray {
         int k = j;
 
         while(k>=0){
-            int d = b;
-            // applied int d = d2 - d1 - b substratcion logic in array
+            int d = - b;
+            // applied int d = d2 - d1 - b substraction logic in array
             if (j>=0){
-                d = a2[j] - b;
+                d += a2[j];
             }
 
             if(i>=0){
-                d-= a1[i];
+                d -= a1[i];
             }
 
             if(d<0){

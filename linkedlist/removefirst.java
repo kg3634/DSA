@@ -14,45 +14,11 @@ package DSA.linkedlist;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class removefirst {
-    public static class Node {
-        int data;
-        Node next;
-      }
-    
-    public static class LinkedList {
-        Node head;
-        Node tail;
-        int size;
-    
-        void addLast(int val) {
-          Node temp = new Node();
-          temp.data = val;
-          temp.next = null;
-    
-          if (size == 0) {
-            head = tail = temp;
-          } else {
-            tail.next = temp;
-            tail = temp;
-          }
-    
-          size++;
-        }
-    
-        public int size(){
-          return size;
-        }
-    
-        public void display(){
-          for(Node temp = head; temp != null; temp = temp.next){
-            System.out.print(temp.data + " ");
-          }
-          System.out.println();
-        }
-    
+public class removeFirst {
+
+    public static class LinkedList extends displayAndSize.LinkedList {
+
         public void removeFirst(){
-          // write your code here
           if (size ==  0){
               System.out.println("List is empty");
           }else if (size == 1){
@@ -86,5 +52,29 @@ public class removefirst {
         }
         
     }
-    
 }
+/*Sample Input
+
+addLast 10
+addLast 20
+addLast 30
+display
+removeFirst
+size
+addLast 40
+addLast 50
+removeFirst
+display
+size
+removeFirst
+removeFirst
+removeFirst
+removeFirst
+quit
+
+Sample Output
+10 20 30 
+2
+30 40 50 
+3
+List is empty */

@@ -11,47 +11,26 @@ package DSA.linkedlist;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class displayandsize {
+import DSA.linkedlist.addLastElement.Node;
 
-    public static class Node {
-        int data;
-        Node next;
-      }
-    
-    public static class LinkedList {
-        Node head;
-        Node tail;
-        int size;
+public class displayAndSize {
 
-        void addLast(int val) {
-            Node temp = new Node();
-            temp.data = val;
-            temp.next = null;
-
-            if (size == 0) {
-            head = tail = temp;
-            } else {
-            tail.next = temp;
-            tail = temp;
-            }
-
-            size++;
-        }
+    public static class LinkedList extends addLastElement.LinkedList  {
 
         public int size(){
-            // write code here
             return size;
         }
         //display.png: temp variable mn head ka reference then print temp.data jab tak temp mn null na aye
         public void display(){
-            // write code here
             Node temp = head;
             while(temp != null){
                 System.out.print(temp.data+" ");
                 temp = temp.next;
             }
             System.out.println();
+
         }
+
     }
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -72,3 +51,21 @@ public class displayandsize {
     }
     
 }
+/*Sample Input
+
+addLast 10
+addLast 20
+addLast 30
+display
+size
+addLast 40
+addLast 50
+display
+size
+quit
+
+Sample Output
+10 20 30 
+3
+10 20 30 40 50 
+5 */

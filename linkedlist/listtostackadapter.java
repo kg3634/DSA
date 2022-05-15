@@ -23,7 +23,7 @@ import java.util.LinkedList;
 // hum [addFirst,getFirst,removeFirst] or [addLast,getLast,removeLast] combination use kar sakte h , but karenge first wala
 // kyuki constant time mn karna h aur humne removeLast O(n) time mn likha ,halaki in java ye O(1) hi hota h 
 // kewal first / last ka combination isliye kyui stack mn 1 hi end per push/pop/top hota h .
-public class listtostackadapter {
+public class listToStackAdapter {
     public static class LLToStackAdapter {
         LinkedList<Integer> list;
     
@@ -33,18 +33,15 @@ public class listtostackadapter {
     
     
         int size() {
-          // write your code here
           return list.size();
         }
     
         void push(int val) {
-          // write your code here
           list.addFirst(val);
           
         }
     
         int pop() {
-          // write your code here
           if(size() == 0){
               System.out.println("Stack underflow");
               return -1;
@@ -54,7 +51,6 @@ public class listtostackadapter {
         }
     
         int top() {
-          // write your code here
           if(size() == 0){
             System.out.println("Stack underflow");
             return -1;
@@ -90,5 +86,58 @@ public class listtostackadapter {
           str = br.readLine();
         }        
     }
-    
 }
+/*Sample Input
+
+push 10
+push 20
+push 5
+push 8
+push 2
+push 4
+push 11
+top
+size
+pop
+top
+size
+pop
+top
+size
+pop
+top
+size
+pop
+top
+size
+pop
+top
+size
+pop
+top
+size
+pop
+quit
+
+Sample Output
+11
+7
+11
+4
+6
+4
+2
+5
+2
+8
+4
+8
+5
+3
+5
+20
+2
+20
+10
+1
+10 */

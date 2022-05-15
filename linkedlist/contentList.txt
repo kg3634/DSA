@@ -20,6 +20,7 @@ Linked Lists - Introduction
  K Reverse In Linked List
  Display Reverse Recursive
  Reverse Linked List Pointer Recursive
+ Reverse Linked List data Recursive
  Is Linked List A Palindrome
  Fold A Linked List
  Add Two Linked Lists

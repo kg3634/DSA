@@ -7,24 +7,23 @@ package DSA.linkedlist;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class addlastelement {
+public class addLastElement {
 
     public static class Node {
         int data;
         Node next;
     }
-
-    public static class LinkedList {
+    public static class LinkedList extends Node {
         Node head;
         Node tail;
         int size;
-    
-        void addLast(int val) {
+     
+        public void addLast(int val) {
           // Write your code here
           Node temp = new Node();
           temp.data = val;
           temp.next = null;        
-          if (size ==0){
+          if (size == 0){
               //create Node and set data and next(common code)
             //   Node temp = new Node();
             //   temp.data = val;
@@ -42,7 +41,7 @@ public class addlastelement {
             // temp.next = null;
 
             //set old tail next to null and assign tail to this element reference
-            tail.next = null;
+            tail.next = temp;
             tail = temp;
 
             //increase size
@@ -79,3 +78,20 @@ public class addlastelement {
     }
     
 }
+/*Sample Input
+
+addLast 10
+addLast 20
+addLast 30
+addLast 40
+addLast 50
+quit
+
+Sample Output
+10
+20
+30
+40
+50
+5
+50 */

@@ -20,7 +20,7 @@ import java.util.LinkedList;
 //Logic: LLtoqueueadapter.png
 // hum [addLast,removeFirst] or [addFirst,removeLast] ka combo use kar sakte h, but removeLast is O(n) in our case,
 // so using [aL,rF]
-public class LLtoqueueadapter {
+public class linkedListToQueueAdapter {
     public static class LLToQueueAdapter {
         LinkedList<Integer> list;
     
@@ -29,17 +29,14 @@ public class LLtoqueueadapter {
         }
     
         int size() {
-          // write your code here
           return list.size();
         }
     
         void add(int val) {
-          // write your code here
           list.addLast(val);
         }
     
         int remove() {
-          // write your code here
           if(size() ==0){
             System.out.println("Queue underflow");
             return -1;
@@ -49,7 +46,6 @@ public class LLtoqueueadapter {
         }
     
         int peek() {
-          // write your code here
           if(size() ==0){
             System.out.println("Queue underflow");
             return -1;
@@ -84,5 +80,39 @@ public class LLtoqueueadapter {
           str = br.readLine();
         }        
     }
-    
 }
+/*Sample Input
+
+add 10
+add 20
+add 30
+add 40
+add 50
+add 60
+peek
+remove
+peek
+remove
+peek
+remove
+peek
+remove
+peek
+remove
+peek
+remove
+quit
+
+Sample Output
+10
+10
+20
+20
+30
+30
+40
+40
+50
+50
+60
+60 */

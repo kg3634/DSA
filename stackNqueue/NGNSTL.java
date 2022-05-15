@@ -12,7 +12,7 @@ public class NGNSTL {
             a[i] = Integer.parseInt(br.readLine());
         }
         int [] nge = solve4(a); // change the function for coorecponding output
-        display(nge);
+        NGETR.display(nge);
               
     }
 
@@ -100,14 +100,5 @@ public class NGNSTL {
         }
         return nse;
     }
-
-    public static void display(int[] a) {
-        StringBuilder sb = new StringBuilder();
-        
-        for(int val: a){
-            sb.append(val +"\n");
-        }
-        System.out.println(sb);
-    }
-    
+   
 }

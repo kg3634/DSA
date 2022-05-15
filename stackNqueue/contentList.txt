@@ -23,8 +23,8 @@
  Queues - Introduction And Usage
  Normal Queue
  Dynamic Queue
- Queue to stack Adapter-Push efficient
- Queue to Stack Adapter - Pop Efficient
+ Queue to stack Adapter-Pop efficient
+ Queue to Stack Adapter - Push Efficient
  Stack to Queue Adapter- Add efficient
  Stack To Queue Adapter- Remove Efficient
  Two Stacks In An Array

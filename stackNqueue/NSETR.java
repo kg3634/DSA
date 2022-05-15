@@ -12,7 +12,7 @@ public class NSETR {
             a[i] = Integer.parseInt(br.readLine());
         }
         int [] nge = solve2(a);
-        display(nge);
+        NGETR.display(nge);
               
     }
     //right to left approach
@@ -53,14 +53,6 @@ public class NSETR {
             st.pop();
         }
         return nse;
-    }
-    public static void display(int[] a) {
-        StringBuilder sb = new StringBuilder();
-        
-        for(int val: a){
-            sb.append(val +"\n");
-        }
-        System.out.println(sb);
     }
     
 }

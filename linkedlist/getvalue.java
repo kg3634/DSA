@@ -16,57 +16,13 @@ package DSA.linkedlist;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class getvalue {
-    public static class Node {
-        int data;
-        Node next;
-      }
+import DSA.linkedlist.addLastElement.Node;
+
+public class getValue {
     
-    public static class LinkedList {
-        Node head;
-        Node tail;
-        int size;
-    
-        void addLast(int val) {
-          Node temp = new Node();
-          temp.data = val;
-          temp.next = null;
-    
-          if (size == 0) {
-            head = tail = temp;
-          } else {
-            tail.next = temp;
-            tail = temp;
-          }
-    
-          size++;
-        }
-    
-        public int size(){
-          return size;
-        }
-    
-        public void display(){
-          for(Node temp = head; temp != null; temp = temp.next){
-            System.out.print(temp.data + " ");
-          }
-          System.out.println();
-        }
-    
-        public void removeFirst(){
-          if(size == 0){
-            System.out.println("List is empty");
-          } else if(size == 1){
-            head = tail = null;
-            size = 0;
-          } else {
-            head = head.next;
-            size--;
-          }
-        }
-    
+    public static class LinkedList extends removeFirst.LinkedList {
+   
         public int getFirst(){
-          // write your code here
           if (size == 0 ){
               System.out.println("List is empty");
               return -1;
@@ -76,7 +32,6 @@ public class getvalue {
         }
     
         public int getLast(){
-          // write your code here
           if (size == 0 ){
             System.out.println("List is empty");
             return -1;
@@ -86,7 +41,6 @@ public class getvalue {
         }
     
         public int getAt(int idx){
-          // write your code here
           if (size == 0 ){
             System.out.println("List is empty");
             return -1;
@@ -139,5 +93,35 @@ public class getvalue {
         }
         
     }
-    
 }
+/*Sample Input
+
+addLast 10
+getFirst
+addLast 20
+addLast 30
+getFirst
+getLast
+getAt 1
+addLast 40
+getLast
+addLast 50
+removeFirst
+getFirst
+removeFirst
+removeFirst
+getAt 3
+removeFirst
+removeFirst
+getFirst
+quit
+
+Sample Output
+10
+10
+30
+20
+40
+20
+Invalid arguments
+List is empty */

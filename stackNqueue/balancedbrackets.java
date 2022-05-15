@@ -7,7 +7,7 @@ e.g.
 ([(a + b) + {(c + d) * (e / f)}] -> false */
 import java.util.Scanner;
 import java.util.Stack;
-public class balancedbrackets {
+public class balancedBrackets {
 
     public static void main(String[] args) {
         
@@ -16,27 +16,27 @@ public class balancedbrackets {
         Stack<Character> st = new Stack<>();
         for(int i=0;i<expr.length();i++){
             char ch = expr.charAt(i);
-            // logic: check open bracket and push it (ignore a,b,c,+) : balancedbracketslogic.jpeg
+            // logic: check open bracket and push it (ignore a,b,c,+) : balancedBracketsLogic.jpeg
             // when closed brackets come,pop untill we find corresponding open bracket handle below cases:
-            // case -1:while poping stack size is zero means more closed brackets than open
-            // case -2:we dont get corresponding open bracket on stack top means size mismatch
-            // case -3: after for loop if stack size is non zero means more open bracker than closed.   
+            // case-1:while poping stack size is zero means more closed brackets than open
+            // case-2:we dont get corresponding open bracket on stack top means size mismatch
+            // case-3: after for loop if stack size is non zero means more open bracker than closed.   
             if (ch == '[' || ch == '(' || ch == '{'){
                 st.push(ch);
             } else if ( ch == ')'){
-                boolean val = handleclosing(st,'(');
+                boolean val = handleClosing(st,'(');
                 if (!val){
                     System.out.println(val);
                     return;
                 }
             } else if ( ch == ']'){
-                boolean val = handleclosing(st,'[');
+                boolean val = handleClosing(st,'[');
                 if (!val){
                     System.out.println(val);
                     return;
                 }
             } else if ( ch == '}'){
-                boolean val = handleclosing(st,'{');
+                boolean val = handleClosing(st,'{');
                 if (!val){
                     System.out.println(val);
                     return;
@@ -53,7 +53,7 @@ public class balancedbrackets {
     }
 
 
-    public static boolean handleclosing(Stack<Character> st,char corresoch){
+    public static boolean handleClosing(Stack<Character> st,char corresoch){
         if (st.size() == 0){// handle case -1
             return false;
         }else {

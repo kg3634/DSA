@@ -6,7 +6,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class anybasemultiIMP {
+public class anyBaseMultiplication {
     public static void main(String[] args) {
         Scanner scn = new Scanner (System.in); 
         int b = scn.nextInt();
@@ -15,9 +15,9 @@ public class anybasemultiIMP {
         int multiplication = getMultiplication(b,n1,n2);
         System.out.println(multiplication);
     }
-    //moduler approach anybasemultimoduler.png
-    //example anybasemultiexample.png
-    // detailed approch anybasemultideatiled.png
+    //moduler approach anyBaseMultiModuler.png
+    //example anyBaseMultiExample.png
+    //detailed approch anyBaseMultiDeatiled.png
     public static int getMultiplication(int b, int n1,int n2){
         int rv =0;
         int p=1;
@@ -26,7 +26,7 @@ public class anybasemultiIMP {
             int rem=n1%10;
             n1=n1/10;
             int sprd = getProductWithSingleDigit(b, rem, n2);//multiply single digit of n1 to whole n2
-            rv=getAddition(b, rv, sprd*p);// while adding we have to shift by one place as well
+            rv=anyBaseAddition.getAddition(b, rv, sprd*p);// while adding we have to shift by one place as well
             p=p*10;
         }
         return rv;
@@ -49,25 +49,5 @@ public class anybasemultiIMP {
 
         return rv;
     }
-
-    public static int getAddition(int b,int n1, int n2){
-        int carry = 0;
-        int value = 0;
-        int rv =0;
-        int p = 1;
-        while(n1>0 || n2>0 || carry >0){
-            int rem1 = n1%10;
-            n1=n1/10;
-            int rem2 = n2%10;
-            n2=n2/10;
-            int sum = rem1+rem2+carry;
-            carry = sum/b;
-            value = sum%b;
-            rv+=value*p;
-            p=p*10;
-        }
-
-        return rv;
-    }
-    
+   
 }

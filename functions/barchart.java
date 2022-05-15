@@ -13,7 +13,7 @@ package DSA.functions;
 
 import java.util.Scanner;
 
-public class barchart {
+public class barChart {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -28,11 +28,11 @@ public class barchart {
             }
 
         }
-        //logic barchartlogic.png 
-        // outer loop upto max floor and inner loop thorugh all element 
+        //logic barChartLogic.png 
+        //outer loop upto max floor and inner loop through all element 
         //will print space and start row wise and then enter.(space for smaller building and * for greater and equal to max)
         for(int floor = max;floor>=1;floor--){// will go to max floor
-            for (int i=0;i<arr.length;i++){//will go for whole building and prints one row at a time
+            for (int i=0;i<arr.length;i++){//will run for all buildings and prints one row at a time
                 if(arr[i]>= floor){
                     System.out.print("*\t");
                 }
