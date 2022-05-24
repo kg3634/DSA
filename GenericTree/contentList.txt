@@ -1,0 +1,29 @@
+ Generic tree Constructor
+ Display A Generic Tree
+ Size Of Generic Tree Medium
+ Maximum In A Generic Tree Easy
+ Height Of A Generic Tree Easy
+ Generic Tree - Traversals (pre-order, Post-order) Easy
+ Level-order Of Generic Tree Easy
+ Levelorder Linewise (generic Tree) Easy
+ Levelorder Linewise Zig Zag Medium
+ Level Order Traversal - More Approaches
+ Mirror A Generic Tree Medium
+ Remove Leaves In Generic Tree Easy
+ Linearize A Generic Tree Easy
+ Linearize A Generic Tree - Efficient Approach
+ Find In Generic Tree Easy
+ Node To Root Path In Generic Tree Easy
+ Lowest Common Ancestor (generic Tree) Easy
+ Distance Between Two Nodes In A Generic Tree Easy
+ Are Trees Similar In Shape Easy
+ Are Trees Mirror In Shape Easy
+ Is Generic Tree Symmetric Easy
+ Multisolver For Generic Tree
+ Predecessor And Successor Of An Element Easy
+ Ceil And Floor In Generic Tree Easy
+ Kth Largest Element In Tree Medium
+ Node With Maximum Subtree Sum Medium
+ Diameter Of Generic Tree Medium
+ Iterative Preorder And Postorder Of Generic Tree Medium
+ Iterable and Iterator

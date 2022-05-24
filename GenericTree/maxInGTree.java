@@ -10,9 +10,15 @@ import java.io.*;
 import java.util.*;
 
 public class maxInGTree {
-  private static class Node {
+  public static class Node {
     int data;
     ArrayList< Node> children = new ArrayList< >();
+    
+    Node(){
+    }
+    Node(int data){
+      this.data = data;
+    }    
   }
 
   public static void display(Node node) {
