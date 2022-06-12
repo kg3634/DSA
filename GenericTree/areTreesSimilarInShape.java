@@ -11,9 +11,26 @@ import java.io.*;
 
 public class areTreesSimilarInShape extends distanceBWNodes{
 
-//   public static boolean areSimilar(Node n1, Node n2) {
+  public static boolean areSimilar(Node n1, Node n2) {
+    //Logic(false scenerio):images/areTreesSimilarInShape.png
+    //pre order mn no of children check kar re h
+    if(n1.children.size() != n2.children.size()){
+      return false;
+    }
 
-//   }
+    //children ki hape check karenge
+    for(int i=0;i< n1.children.size();i++){
+      Node c1 = n1.children.get(i);
+      Node c2 = n2.children.get(i);
+
+      if(areSimilar(c1, c2) == false){
+        return false;
+      }
+    }
+
+    //agar children same h and recursion mn false ni h then true hoga
+    return true;
+  }
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
