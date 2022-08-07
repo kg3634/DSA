@@ -12,4 +12,12 @@
  Bar Chart
  Sum Of Two Arrays
  Difference Of Two Arrays
- 
+ Reverse An Array Easy
+ Rotate An Array Easy
+ Inverse Of An Array Easy
+ Subarray Problem Easy
+ Binary Search
+ Broken Economy(ceil and floor) Easy
+ First Index And Last Index Easy
+ Subsets Of Array Easy
+ Inverted Bar Chart Easy

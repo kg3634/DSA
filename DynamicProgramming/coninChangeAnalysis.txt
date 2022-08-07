@@ -1,0 +1,11 @@
+/*coinChangeAnalysis.png
+in permutation(it is source and destination problem as well), 1st amt ke liye 2,3,4,5 asar check karte h, then next coulmn 
+mn badhte h taki 234,324 dono mil jaye that y outer loop is amt loop and inside is coins loop but in combination to get 
+unique sets, we first check 2 ka asar in all and then 3 and so on, that s y outer loop is coins loop, and inner loop 
+starting with each coin(taki next coin frst ke piche hi chikpe) and going to length of dp.
+targetsumsubsetAnalysis.png: 
+in this we cant use same coin again(but in previous problems we can use coin infite no of times)
+, ya to coin ayega ya ni(like in backtracking subsequence question), isiliye isme previous row ko check krte h kyuki usme 
+current coin ni ayega kyuki hum 2d array use kar re h but in combination we are using 1d and going back into same array 
+and reaping coin, in 2d it is like doing combination problem multiple times and in each row eith coin can be included 
+or excluded */

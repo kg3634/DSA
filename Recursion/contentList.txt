@@ -1,0 +1,39 @@
+ Intro:
+ Print Decreasing Easy
+ Print Increasing Easy
+ Print Increasing Decreasing Easy
+ Factorial Easy
+ Power-linear Easy
+ Power-logarithmic Easy
+ Print Zigzag Easy
+ Tower Of Hanoi Easy
+
+Arrays:
+ Display Array Easy
+ Display Array In Reverse Easy
+ Max Of An Array Easy
+ First Index Easy
+ Last Index Easy
+ All Indices Of Array Easy
+
+ArrayList:
+ Get Subsequence Easy
+ Get Kpc Easy
+ Get Stair Paths Easy
+ Get Maze Paths Easy
+ Get Maze Path With Jumps Easy
+
+Recursion on the way up:
+ Print Subsequence Easy
+ Print Kpc Easy
+ Print Stair Paths Easy
+ Print Maze Paths Easy
+ Print Maze Paths With Jumps Easy
+ Print Permutations Easy
+ Print Encodings Easy 
+
+Backtracking:
+ Flood Fill Easy
+ Target Sum Subsets Easy
+ N Queens Easy
+ Knights Tour Easy 

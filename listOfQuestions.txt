@@ -1,0 +1,31 @@
+array: 60-70 ques
+string: 30-40 ques
+recursion: 30-40 ques
+Linked list: 30-40 ques
+stack: 20-30 ques
+queue: 20-30 ques
+bit manipulation: 8-10 ques
+two pointers: 8-10 ques
+searching and sorting: 40-50 ques
+trees: 30-40 ques
+Bst: 30-40 ques
+heap and priority queue: 30-40 ques
+hashing: 15-20 ques
+greedy: 15-20 ques
+
+most asked in placement
+graphs: 70-80 ques
+dp: 100 ques
+
+Adv topic
+trie: 8-10 ques
+segment tree: 8-10 ques
+fenwrick tree: 4-5 ques
+
+40%easy
+40% medium
+20% hard
+
+graph (riddhi dutta)
+
+do around 600 ques!!

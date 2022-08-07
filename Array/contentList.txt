@@ -1,0 +1,9 @@
+ Matrix Multiplication Easy
+ Wave Traversal Easy
+ Spiral Display Easy
+ Exit Point Of A Matrix Easy
+ Rotate By 90 Degree Easy
+ shell Rotate Easy
+ Diagonal Traversal Easy
+ Saddle Price Easy
+ Search In A Sorted 2d Array Medium
