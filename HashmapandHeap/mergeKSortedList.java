@@ -14,10 +14,10 @@ import java.util.*;
 public class mergeKSortedList {
    /*Comaparable Basics:
    ** is interface: Contract of functions - only has name and sign of functions - 
-   ** class which implements interface: says I will provide body of all functions anmed in interface
+   ** class which implements interface: says I will provide body of all functions named in interface
    ** why important: PQ class depends on comparable: it typecase object into comaparable and then decides.
-   ** If pair1 and pair2 needs to be compared: C object1 = (C) p1;C object2 = (C) p2 
-      if(object1.compareTo(object2) > 0) ==> this.val - o.val (agar +ve then this is greater,-ve then this is smaller)
+   ** If parent and child needs to be compared: Comparable par = (Comparable) parObj;Comparable child = (Comparable) childObj 
+      if(child.compareTo(par) > 0) ==> this.val - o.val (agar +ve then this(child) is greater,-ve then this(child) is smaller)
     */
    public static class Pair implements Comparable<Pair>{
       int li;

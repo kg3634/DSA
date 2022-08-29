@@ -57,6 +57,12 @@ public class paintHouse {
 5 8 4
 3 2 9
 1 2 4
-
+5
+5 3 4
+2 4 5
+3 8 6
+4 2 5
+1 3 2
 Sample Output
 8 */
+

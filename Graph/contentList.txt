@@ -1,0 +1,17 @@
+ Has Path? Easy
+ Print All Paths Easy
+ Multisolver - Smallest, Longest, Ceil, Floor, Kthlargest Path Easy
+ Get Connected Components Of A Graph Easy
+ Is Graph Connected Easy
+ Number Of Islands Easy
+ Perfect Friends Easy
+ Hamiltonian Path And Cycle Easy
+ Knights Tour Easy
+ Breadth First Traversal Easy
+ Is Graph Cyclic Easy
+ Is Graph Bipartite Easy
+ Spread Of Infection Easy
+ Shortest Path In Weights Easy
+ Minimum Wire Required To Connect All Pcs Easy
+ Order Of Compilation Easy
+ Iterative Depth First Traversal Easy

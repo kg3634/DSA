@@ -1,0 +1,22 @@
+STRING:
+images/interning1.png
+String s1 = "hello";//4k referene
+String s2 = "hello";//4k reference
+String s3 = new String("hello");//nform new 5k reference but will point to same char array instance
+1) s1 and s2 will have same 4k reference which will point to same hello(basically in intern pool there would be shell at 4k which 
+would be pointing hello string instance in another address)
+2) s3 will point to new reference(5k) but it will point to same hello string instance
+NOTE: what: in interninig, sharing memory among strings. why: to optimized space
+Implications:
+1) For comparison use s1.equals(s2) not (== will only compare reference) as equals will also compare string chars as well
+2) Immutability : strings are immutable because of interninig: reference is mutable ,instance is not. If change in char of string
+is allowed then if you chnage s2 string, it wil lchnage for s1,s3 as well.
+    impact: performance slow: images/interninig2.png: if you add new char to existing string, it copy old one along with new to new 
+    instance, like if you have 2gb of space of string, want to add 1 char to it, first it will copy 2gb of data ad so on...
+
+StrinBuider:
+1) it is mutable, so it will take way more less time than string, always use stringbuilder
+added functions in stringBuilder:
+.setCharAt(0,d);//not in string
+.deleteCharAt(2);//not in string
+.append(2);//in string(if use+) it will create new space and add this but here it will do in same space

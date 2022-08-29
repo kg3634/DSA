@@ -18,24 +18,24 @@ public class prime {
         Scanner scn = new Scanner(System.in);
     
         /*written by me: time complexity = [t*n]: in 3 Ghz(3* 10^9 cycles/sec) machine, 10^9 
-        operations should take 1 sec. here TC = 10^4*10^9=10^13*/ 
-        // int t = scn.nextInt();
-        //   for (int i = 0; i < t; i++) {
-        //     // int count=0 , count ++, if (count ==0) logic can be used also
-        //     Boolean flag = true; 
-        //     int n = scn.nextInt();
-        //     for (int j = 2; j < n; j++) {
-        //         if (n % j == 0) {
-        //           flag = false;
-        //           System.out.println("not prime");
-        //           break;
-        //         }
-        //       }
-        //       if (flag) {
-        //         System.out.println("prime");
-        //       }
-        //    }
-    
+        operations should take 1 sec. here TC = 10^4*10^9=10^13
+        int t = scn.nextInt();
+          for (int i = 0; i < t; i++) {
+            // int count=0 , count ++, if (count ==0) logic can be used also
+            Boolean flag = true; 
+            int n = scn.nextInt();
+            for (int j = 2; j < n; j++) {
+                if (n % j == 0) {
+                  flag = false;
+                  System.out.println("not prime");
+                  break;
+                }
+              }
+            if (flag) {
+                System.out.println("prime");
+              }
+           }
+         */
     /* Primality Test 
     100 divisors: 2 × 50, 4 × 25, 5 × 20, 10 × 10, [20 × 5, 25 × 4, 50 × 2] - repeated
     it will be divided by a number smaller than or equal to its square-root
