@@ -41,6 +41,8 @@ public class climbingStairs {
     }
 
     //tabulation method:images/climbingStairs.png
+    //just like fibonacci( if only 1 ,2 were allowed), in 
+    // below case we will add last three.
     public static int countPathsTab(int n){
         int [] dp = new int[n+1];
          dp[0] = 1;
